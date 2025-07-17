@@ -12,5 +12,5 @@ An interactive dashboard developed using Streamlit to visualize winsorized finan
 - Built with Python, Streamlit, and Pandas
 
 ## Content Files
-- `dashboard.py`: Main Streamlit app
-- `financial_ratios_winsorized.csv`: Winsorized financial dataset
+- `app/dashboard.py`: Main Streamlit app
+- `dataset/financial_ratios_winsorized.csv`: Winsorized financial dataset
