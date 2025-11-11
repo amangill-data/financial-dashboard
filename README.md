@@ -2,7 +2,7 @@
 
 An interactive dashboard developed using Streamlit to visualize winsorized financial ratios across various industries.
 
-🔗 **Live Demo:** [View Streamlit App](https://financial-dashboard-naglt7ecvuzzncwv8ohicr.streamlit.app/)
+🔗 **Live Demo:** [View Streamlit App](https://financial-dashboard-qnxawnh6jhfxr3i2cebgfa.streamlit.app/)
 
 ---
 
