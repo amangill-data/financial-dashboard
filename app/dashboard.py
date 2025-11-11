@@ -4,7 +4,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("financial_ratios_winsorized.csv")
+import os
+
+data_path = os.path.join(os.path.dirname(__file__), "..", "dataset", "financial_ratios_winsorized.csv")
+df = pd.read_csv(data_path)
+
 
 # Ensure numeric types
 df['roe_Median'] = pd.to_numeric(df['roe_Median'], errors='coerce')
@@ -43,3 +47,4 @@ ax3.set_title("Box Plot: Debt-to-Equity Ratio")
 st.pyplot(fig3)
 
 st.write("Dashboard created to support insights on profitability, valuation, and leverage.")
+
